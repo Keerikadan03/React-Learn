@@ -6,4 +6,5 @@ Feel free to browse through the code and use any of the projects as a reference 
 
 Thank you for visiting my repository, and happy coding!
 
-1. React Fun Facts App [(https://react-learn-second.vercel.app)]
+1. React Fun Facts Web App https://react-learn-beta.vercel.app/
+2. Portfolio Mobile Web App https://react-learn-second.vercel.app/
