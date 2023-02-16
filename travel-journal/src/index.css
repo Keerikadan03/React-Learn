@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.gray{
+    color: #999;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.nav-container{
+    background-color: #F55A5A;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-text{
+    color: white;
+    margin-left: 10px;
+}
+
+.card-container{
+    margin-top: 40px;
+    padding-left: 40px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.card-content{
+    margin-left: 25px;
+    padding: 30px;
+}
+
+.card-image{
+    width: 200px;
+    height: 268px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 40px
+}
+
+.card-loc-image{
+    margin-right: 10px;
+}
+
+.card-location{
+    display: flex;
+}
+
+.card-country{
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.card-title{
+    font-size: 25px;
+}
+
+.card-period{
+    padding-bottom: 15px;
+}
+
+.card-description{
+    max-width: 500px;
+}
