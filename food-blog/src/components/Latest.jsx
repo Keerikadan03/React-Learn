@@ -3,26 +3,47 @@ import data from "../data"
 
 export default function Latest(){
 
-    const cards = data.map(item => {
-        return(
-          <Card 
-            key = {item.id}
-            {...item}
-          />
-        )
-      })
+    // const cards = data.map(item => {
+    //     return(
+    //       <Card 
+    //         key = {item.id}
+    //         {...item}
+    //       />
+    //     )
+    //   })
 
-      var state = 1;
+    //   var state = 1;
 
-      function leftPage(){
-        state--;
-        console.log(state)
-      }
+    //   function leftPage(){
+    //     state--;
+    //     console.log(state)
+    //   }
 
-      function rightPage(){
-        state++;
-        console.log(state)
-      }
+    //   function rightPage(){
+    //     state++;
+    //     console.log(state)
+    //   }
+
+    const [page,setPage] = React.useState(1)
+    const [blogData,setBlogData] = React.useState(data)
+    const pageData = blogData.slice(3*page-3, 3*page)
+
+    function leftPage(){
+      setPage(prevPage => prevPage - 1)
+    }
+
+    function rightPage(){
+      setPage(prevPage => prevPage + 1)
+    }
+    
+    const cards = pageData.map(item => {
+      return(
+        <Card 
+          key = {item.id}
+          {...item}
+        />
+      )
+    })
 
       
 
@@ -36,7 +57,7 @@ export default function Latest(){
               <button className="btn-left" onClick={leftPage}>
                 <div className="left"></div>
               </button>
-              <div className="num">{state}/2</div>
+              <div className="num">{page}/2</div>
               <button className="btn-right" onClick={rightPage}>
                 <div className="right"></div>
               </button>

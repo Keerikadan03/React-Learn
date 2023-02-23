@@ -154,9 +154,6 @@ body{
     margin-right: 108px;
 }
 
-.card-container:nth-child(4),.card-container:nth-child(5),.card-container:nth-child(6){
-    display: none;
-}
 
 .latest-title{
     margin-left: 108px;
