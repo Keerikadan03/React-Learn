@@ -266,7 +266,7 @@ body{
     transform: rotate(-135deg);
 }
 
-.btn-left,.btn-right{
+.btn{
     width: 28px;
     height: 28px;
     border: 1px solid #AFAFAF;
@@ -277,4 +277,12 @@ body{
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+.active{
+    border-color: #424961;   
+}
+
+.active-box{
+    box-shadow: -2px 2px 0 #424961;
 }
