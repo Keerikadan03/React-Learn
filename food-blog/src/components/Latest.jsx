@@ -1,5 +1,6 @@
 import Card from "./Card"
 import data from "../data"
+import { useState } from "react"
 
 export default function Latest(){
 
@@ -24,8 +25,8 @@ export default function Latest(){
     //     console.log(state)
     //   }
 
-    const [page,setPage] = React.useState(1)
-    const [blogData,setBlogData] = React.useState(data)
+    const [page,setPage] = useState(1)
+    const [blogData,setBlogData] = useState(data)
     const pageData = blogData.slice(3*page-3, 3*page)
 
     function leftPage(){
