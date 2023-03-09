@@ -1,6 +1,7 @@
 import Landing from "./components/Landing";
 import About from "./components/About";
 import Latest from "./components/Latest";
+import Footer from "./components/Footer";
 
 export default function App(){
 
@@ -9,6 +10,7 @@ export default function App(){
       <Landing />
       <About />
       <Latest />
+      <Footer />
     </div>
   )
 }

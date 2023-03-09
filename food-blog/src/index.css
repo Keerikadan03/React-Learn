@@ -279,10 +279,69 @@ body{
     background-color: white;
 }
 
-.active{
+#active{
     border-color: #424961;   
 }
 
-.active-box{
+#active-box{
     box-shadow: -2px 2px 0 #424961;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 362px;
+    margin-top: 65px;
+
+    background-color: #f8f8f8;
+}
+
+.footer-image{
+    width: 161px;
+    height: 125px;
+}
+
+.blue{
+    color: #0E2368;
+
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.grey{
+    color: #646874;
+
+    font-size: 14.66px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-us{
+    height: 160px;
+    width: 217px;
+}
+
+.more{
+    height: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-links{
+    height: 160px;
+}
+
+.social-links-list{
+    display: flex;
+    width: 108px;
+    justify-content: space-between;
+}
+.social-text{
+    margin-top: 60px;
 }

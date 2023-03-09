@@ -34,12 +34,12 @@ export default function Latest(){
                 {cards}
             </section>
             <div className="buttons">
-              <button className="btn" onClick={leftPage}>
-                <div className="left"></div>
+              <button className="btn" id={page === 2 ?"active" : ""} onClick={leftPage}>
+                <div className="left" id={page === 2 ?"active-box" : ""} ></div>
               </button>
               <div className="num">{page}/2</div>
-              <button className="btn active" onClick={rightPage}>
-                <div className="right active-box"></div>
+              <button className="btn" id={page === 1 ?"active" : ""} onClick={rightPage}>
+                <div className="right" id={page === 1 ?"active-box" : ""} ></div>
               </button>
             </div>
         </div>
