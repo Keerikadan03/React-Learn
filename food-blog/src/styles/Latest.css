@@ -1,0 +1,139 @@
+.latest-title{
+    margin-left: 108px;
+    margin-top: 158px;
+    
+    font-size: 56px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    color: #0E2368;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+}
+
+.card-container:nth-child(1){
+    margin-left: 108px;
+}
+
+.card-container:nth-child(3){
+    margin-right: 108px;
+}
+
+.card-container{
+    width: 381px;
+    height: 554px;
+
+    border: 1.37039px solid rgba(147, 162, 211, 0.38);
+    border-radius: 20.937px;
+}
+
+.card-image{
+    width: 326px;
+    height: 257px;
+    margin: 27px;
+}
+
+.card-title{
+    margin-left: 43.17px;
+    
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+    line-height: 27px;
+    color: #0E2368;
+}
+
+.card-description{
+    margin-left: 43.17px;
+    margin-right: 42.83px;
+    margin-top: 14px;
+
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #444957;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-button{
+    margin-left: 43.17px;
+    padding:  10px 26px ;
+
+    font-size: 16.4447px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background-color: white;
+    border: #424961 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cards-list{
+    margin-top: 69px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 41px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.num{
+    width: 30px;
+    height: 28px;
+    margin: 0px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.left,.right {
+    width: 9px;
+    height: 9px;
+    transition: .5s;
+    box-shadow: -2px 2px 0 #AFAFAF;
+}
+  
+.left {
+    transform: rotate(45deg);
+}
+
+.right {
+    transform: rotate(-135deg);
+}
+
+.btn{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #AFAFAF;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#active{
+    border-color: #424961;   
+}
+
+#active-box{
+    box-shadow: -2px 2px 0 #424961;
+}

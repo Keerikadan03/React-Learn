@@ -1,6 +1,7 @@
 import Card from "./Card"
 import data from "../data"
 import { useState } from "react"
+import '../styles/Latest.css'
 
 export default function Latest(){
 

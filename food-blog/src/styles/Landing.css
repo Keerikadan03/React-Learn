@@ -1,0 +1,81 @@
+.landing-container{
+    margin-left: 100px;
+    position: relative;
+}
+
+.landing-icon{
+    margin-top: 33px;
+}
+
+.landing-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E2368;
+}
+
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 345px;
+}
+
+.landing-title{
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E2368;
+    line-height: 69px;
+    margin-top: 111px;
+}
+
+.landing-red{
+    color: #E23744;
+}
+
+.landing-subtitle{
+    font-size: 16.44px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 27.41px;
+    margin-top: 26px;
+}
+
+.landing-button{
+    max-width: 190px;
+    max-height: 63px;
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Oper Sans', sans-serif;
+
+    background-color: #E23744;
+    color: white;
+
+    border: none;
+    border-radius: 34px;
+    padding: 34px;
+    margin-top: 41px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.landing-pizza{
+    width: 705px;
+    height: 804px;
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.landing-vector{
+    width: 722px;
+    height: 839px;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 1;
+}
